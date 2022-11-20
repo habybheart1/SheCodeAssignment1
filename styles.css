@@ -1,21 +1,33 @@
 body {
-  font-family: cursive;
-  padding: 0 20px;
+  padding: 15px;
+  margin: 40px auto;
+  border-radius: 20px;
+  background: rgb(169, 169, 221);
   text-align: center;
-  margin: 20px auto;
-  max-width: fit-content;
-  background-color: yellowgreen;
+  font-family: cursive;
 }
 .info {
   display: flex;
   justify-content: space-evenly;
 }
-.info div {
+.info button {
   padding: 20px;
   margin-top: 50px;
-  border: 1px solid red;
+  color: white;
 }
 .description {
   display: flex;
   justify-content: space-evenly;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: rgb(29, 20, 161);
+  text-decoration: none;
+  cursor: pointer;
+}
+a:visited {
+  color: green;
 }

@@ -1,3 +1,7 @@
+:root {
+  --primary-color: purple;
+  --letter-size: 2.5em;
+}
 .body {
   padding-top: 30px;
 }
@@ -8,14 +12,18 @@
   max-width: 60%;
   border: 1px solid black;
   border-radius: 5%;
+  background-image: url("abibat.jpg");
+  background-size: cover;
 }
 h1 {
   font-size: 3em;
   margin: 0;
   padding: 0;
+  margin-top: 20px;
 }
 h2 {
-  font-size: 2.5em;
+  font-size: var(--letter-size);
+  color: var(--primary-color);
   margin: 10px;
 }
 h3 {
@@ -25,5 +33,19 @@ h3 {
 .description {
   column-count: 2;
   font-family: serif Georgia;
+  font-size: 20px;
   text-align: left;
+  line-height: 30px;
+
+  border: 1px dotted black;
+  margin: 10px;
+  padding: 10px;
+}
+.meet-me {
+  padding: 0 10px;
+  margin: 10px;
+}
+strong {
+  font-size: var(--letter-size);
+  color: var(--primary-color);
 }
