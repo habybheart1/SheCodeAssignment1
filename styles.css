@@ -13,7 +13,7 @@ body {
 .info button {
   padding: 20px;
   margin-top: 50px;
-  color: white;
+  color: rgb(221, 144, 144);
 }
 .description {
   display: flex;
@@ -21,7 +21,7 @@ body {
 }
 a {
   text-decoration: none;
-  color: white;
+  color: #f1f1f3;
 }
 a:hover {
   color: rgb(29, 20, 161);
